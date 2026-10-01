@@ -13,13 +13,13 @@ ROADMAP includes synonyms, abbreviations, and defintions of the terms.
 
 The following documents define the content of ATLAS cards for AI models and datasets (version 2025-11):
 
-* Current version (2025-11)
+* **Current schema (2025-11 version)**
   + [Models](schema/2025-11/model.json)
   + [Datasets](schema/2025-11/dataset.json)
 
-* Under development (2026-12)
-  + [Models](schema/2026-12/model.json)
-  + [Datasets](schema/2026-12/dataset.json)
+* Under development (2026 version)
+  + [Models](schema/2026/model.json)
+  + [Datasets](schema/2026/dataset.json)
 
 ## About RSNA
 
