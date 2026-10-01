@@ -2,7 +2,7 @@
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
 	"$id": "https://rsna.github.io/atlas/schema/2026/model.json",
 	"title": "ATLAS model schema",
-	"description": "RSNA ATLAS schema, 2026-12 version",
+	"description": "RSNA ATLAS schema, 2026 version",
 	"$comment": "Copyright (c) 2026, Radiological Society of North America",
 	"type": "object",
 	"minProperties": 1,
