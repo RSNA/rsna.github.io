@@ -6,7 +6,7 @@
 	"$comment": "Profiles are computed by the registry at ingest, not declared by the card author; cards continue to declare \"$schema\": \".../model.json\".",
 	"allOf": [
 		{
-			"$ref": "https://atlas.rsna.org/schemas/2026-12/model.json"
+			"$ref": "https://rsna.github.io/atlas/schema/2026/model.json"
 		}
 	]
 }
