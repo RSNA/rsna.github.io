@@ -1,6 +1,6 @@
 {
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"$id": "https://atlas.rsna.org/schemas/2026-12/dataset.json",
+	"$id": "https://rsna.github.io/atlas/schema/2026/dataset.json",
 	"title": "ATLAS dataset schema",
 	"description": "RSNA ATLAS dataset schema, 2026-12 version",
 	"$comment": "Copyright (c) 2026, Radiological Society of North America",
@@ -10,7 +10,7 @@
 		"$schema": {
 			"description": "The JSON Schema version identifier for this document.",
 			"type": "string",
-			"const": "https://atlas.rsna.org/schemas/2026-12/dataset.json"
+			"const": "https://rsna.github.io/atlas/schema/2026/dataset.json"
 		},
 		"Dataset": {
 			"description": "Describes an AI dataset",
