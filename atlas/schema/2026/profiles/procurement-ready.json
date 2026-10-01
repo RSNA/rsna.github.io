@@ -6,7 +6,7 @@
 	"$comment": "This is an overlay: it adds only `required`/cardinality narrowing over schema-2026-12/model.json via allOf, per the note's \"required does not cascade\" and \"required is satisfied by an empty string\" traps (each nested `required` is restated at every level down to the leaf, and array/string leaves that lack a base minItems/minLength get one added here). It defines no new properties, so it is unaffected by the base schema's additionalProperties:false. Clinical risk level was DEFERRED at this profile's creation and has since been added to the base schema (ROADMAP:04127); promoted to required below. A Datasets field and a performance-record Test type (Internal/External/Local/Prospective) have also since been added to the base schema (Model.Datasets, Model-performance.items.Test type); both promoted to required below (at least one Datasets entry, and a Test type on every performance record). Still DEFERRED pending fields that do not yet exist in the base schema (per the note's \"profiles cannot ship first\"): targeted patient population as a dedicated structured field (today it's only prose within Indications for use / Limitations); and linkage from a specific performance record's Evaluation dataset to a specific Datasets[] entry (the two arrays exist independently, with no cross-reference between them). These will be added to this profile once the corresponding base-schema fields exist.",
 	"allOf": [
 		{
-			"$ref": "https://atlas.rsna.org/schemas/2026-12/model.json"
+			"$ref": "https://rsna.github.io/atlas/schema/2026/model.json"
 		},
 		{
 			"$ref": "#/$defs/profileConstraints"
